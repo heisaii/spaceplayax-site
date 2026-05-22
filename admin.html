@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Draft Upload - Tech A</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header simple">
+      <div class="brand-row">
+        <a class="brand" href="./index.html"><span>Tech</span>A</a>
+        <a class="back-link" href="./index.html">Back to site</a>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <section class="editor-panel">
+        <div>
+          <p class="eyebrow">Draft intake</p>
+          <h1>Prepare a technology article for review</h1>
+          <p>
+            This static demo stores the draft in your browser for preview only.
+            In production, connect this form to a CMS, Supabase, Firebase, or an
+            object-storage upload flow.
+          </p>
+        </div>
+
+        <form id="draftForm" class="draft-form">
+          <label>
+            Title
+            <input name="title" required placeholder="Article headline" />
+          </label>
+          <label>
+            Section
+            <select name="section">
+              <option>Technology</option>
+              <option>AI</option>
+              <option>Chips</option>
+              <option>Software</option>
+            </select>
+          </label>
+          <label>
+            Summary
+            <textarea
+              name="summary"
+              rows="4"
+              required
+              placeholder="Short editorial summary"
+            ></textarea>
+          </label>
+          <label>
+            Cover image
+            <input name="image" type="file" accept="image/*" />
+          </label>
+          <label>
+            Article body
+            <textarea
+              name="body"
+              rows="9"
+              placeholder="Paste the article draft here"
+            ></textarea>
+          </label>
+          <button type="submit">Preview Draft</button>
+        </form>
+      </section>
+
+      <aside class="preview-panel" aria-live="polite">
+        <p class="eyebrow">Preview</p>
+        <article id="draftPreview" class="draft-preview">
+          <div class="placeholder-image"></div>
+          <span>Awaiting draft</span>
+          <h2>Your uploaded article preview appears here</h2>
+          <p>
+            After connecting a backend, drafts should remain private until
+            editorial, sourcing, copyright, and policy review is complete.
+          </p>
+        </article>
+      </aside>
+    </main>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tech A - Technology, AI, Chips and Software</title>
+    <meta
+      name="description"
+      content="A static, CDN-friendly technology news site covering AI, chips, software, and broader technology trends."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-strip">
+        <span>Thursday, May 21, 2026</span>
+        <nav aria-label="Utility links">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy</a>
+        </nav>
+      </div>
+
+      <div class="brand-row">
+        <button class="icon-button" aria-label="Open menu">☰</button>
+        <a class="brand" href="./index.html" aria-label="Tech A home">
+          <span>Tech</span>A
+        </a>
+        <div class="header-actions">
+          <a href="./admin.html">Submit</a>
+          <button class="search-button" aria-label="Search">Search</button>
+        </div>
+      </div>
+
+      <nav class="channel-nav" aria-label="Sections">
+        <a href="#">Top Stories</a>
+        <a href="#">Technology</a>
+        <a href="#">AI</a>
+        <a href="#">Chips</a>
+        <a href="#">Software</a>
+        <a href="#">Startups</a>
+        <a href="#">Video</a>
+        <a href="#">Reviews</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="ad-slot" aria-label="Advertisement">
+        <span>Advertisement</span>
+      </section>
+
+      <section class="ticker" aria-label="Latest updates">
+        <strong>Latest</strong>
+        <div id="tickerItems"></div>
+      </section>
+
+      <section class="news-grid" aria-label="Top stories">
+        <aside class="side-column" id="leftColumn"></aside>
+        <article class="lead-story" id="leadStory"></article>
+        <aside class="side-column right-rail">
+          <div class="rail-card">
+            <h2>Most Read</h2>
+            <ol id="mostRead"></ol>
+          </div>
+          <div class="rail-card subscribe-card">
+            <h2>Editorial Notes</h2>
+            <p>
+              Publish only reviewed articles here. Keep uploads in draft until
+              sources, images, claims, benchmarks, and copyright are checked.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <h2>Latest Technology</h2>
+          <a href="#">View all</a>
+        </div>
+        <div class="card-grid" id="latestGrid"></div>
+      </section>
+
+      <section class="split-band">
+        <div>
+          <div class="section-heading compact">
+            <h2>Video</h2>
+            <a href="#">More videos</a>
+          </div>
+          <div class="video-feature">
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1100&q=80"
+              alt="Technology editorial production desk with laptop"
+            />
+            <div>
+              <span>Watch</span>
+              <h3>How editors verify AI, chip, and software stories before publishing</h3>
+              <p>
+                A short workflow for source notes, product claims, benchmark
+                context, and AdSense-safe publishing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="section-heading compact">
+            <h2>Quick Reads</h2>
+          </div>
+          <div class="quick-list" id="quickList"></div>
+        </div>
+      </section>
+
+      <section class="ad-slot lower" aria-label="Advertisement">
+        <span>Advertisement</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand small"><span>Tech</span>A</div>
+      <p>
+        Static technology news template. Replace demo articles with reviewed
+        original reporting before publishing ads.
+      </p>
+    </footer>
+
+    <script src="./data/articles.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
