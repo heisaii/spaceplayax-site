@@ -1,0 +1,19 @@
+# Observable Space secures $90 million and Space Force contract
+
+AMSTERDAM — Observable Space, a developer of optical systems for laser communications and space domain awareness, has raised $90 million and secured a contract with the U.S. Space Force, marking a notable step for a company building hardware for space applications.
+
+The company said on May 28 that it closed a $90 million Series A round and won the government contract. The announcement places Observable Space among a growing group of firms working on optical technologies that support the expanding need for faster data links and better situational awareness in orbit.
+
+Optical systems have become increasingly important in space operations because they can support laser communications and other functions that rely on light rather than conventional radio frequencies. In practice, that can mean higher-capacity links for transmitting information and improved sensing capabilities for understanding activity in the space environment. The same underlying technology can be relevant to both commercial satellite networks and defense-related missions.
+
+Space domain awareness has also emerged as a key area of interest for governments and industry alike. As orbital traffic grows and space systems become more central to communications, navigation, and national security, organizations are investing in tools that can help detect, identify, and monitor objects and activity in space. A company focused on optical systems is positioned to serve that demand if its hardware can operate reliably in the harsh conditions of space.
+
+The combination of a large equity raise and a Space Force contract suggests Observable Space is moving at the intersection of private investment and public-sector demand. For startups in advanced aerospace and space technology, such signals can be especially meaningful because development cycles are often long, technical risk is high, and customers may require sustained investment before products reach wider deployment.
+
+A $90 million Series A is also a substantial early financing event for a company in a specialized hardware segment. While the source did not disclose how the funds will be used, financing of this scale typically provides room for engineering development, testing, manufacturing preparation, and customer engagement. In a field such as optical space systems, those steps are often necessary before a technology can scale from demonstration to operational use.
+
+The U.S. Space Force contract adds another layer of validation. Government contracts can be important for technology firms because they provide an initial customer relationship, support technical credibility, and open the door to broader adoption if the system performs as intended. For a company developing optical systems for laser communications and space domain awareness, such a contract may help establish relevance in a market where performance, resilience, and mission fit are critical.
+
+Observable Space’s announcement reflects wider momentum in the space sector around secure communications and orbital awareness. As agencies and operators look for ways to move more data and better understand the space environment, optical technologies are drawing increasing attention. The company’s latest funding round and government win indicate that investors and defense customers see promise in that approach, even as the technical demands of space hardware remain high.
+
+The company did not provide further details in the source about the investors involved in the round, the scope of the contract, or deployment timelines. Even so, the announcement underscores how optical systems are becoming a more prominent part of the space technology landscape, where communications capability and situational awareness are both central to future operations.
