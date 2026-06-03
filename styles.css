@@ -202,6 +202,26 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
+.story-link {
+  display: block;
+}
+
+.story-link:hover h1,
+.story-link:hover h3,
+.rail-card a:hover,
+#tickerItems a:hover,
+.article-body a:hover {
+  color: var(--accent-dark);
+}
+
+.story-link:focus-visible,
+.rail-card a:focus-visible,
+#tickerItems a:focus-visible,
+.back-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 .small-story {
   display: grid;
   grid-template-columns: 112px 1fr;
@@ -379,12 +399,14 @@ p {
 }
 
 .video-feature p,
-.quick-list article {
+.quick-list article,
+.quick-story {
   color: var(--muted);
   line-height: 1.45;
 }
 
-.quick-list article {
+.quick-list article,
+.quick-story {
   border-bottom: 1px solid var(--line);
 }
 
@@ -408,6 +430,81 @@ p {
 
 .back-link {
   font: 700 13px "Trebuchet MS", sans-serif;
+}
+
+.article-page {
+  max-width: 820px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: 26px;
+  border-top: 4px solid var(--accent);
+}
+
+.article-hero h1,
+.article-missing h1 {
+  margin: 8px 0 12px;
+  font-size: clamp(38px, 6vw, 62px);
+  line-height: 0.98;
+}
+
+.article-summary {
+  color: #3f3f3f;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.article-hero img {
+  aspect-ratio: 16 / 9;
+  margin: 22px 0 28px;
+  background: #e6e1d6;
+}
+
+.article-body {
+  font-size: 19px;
+  line-height: 1.68;
+}
+
+.article-body h1 {
+  display: none;
+}
+
+.article-body h2 {
+  margin: 34px 0 10px;
+  font-size: 30px;
+  line-height: 1.12;
+}
+
+.article-body h3 {
+  margin: 26px 0 9px;
+  font-size: 23px;
+  line-height: 1.18;
+}
+
+.article-body p,
+.article-body ul,
+.article-body blockquote {
+  margin: 0 0 20px;
+}
+
+.article-body ul {
+  padding-left: 24px;
+}
+
+.article-body a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.article-body blockquote {
+  border-left: 4px solid var(--gold);
+  padding-left: 16px;
+  color: #4d4d4d;
+}
+
+.article-error,
+.article-missing p {
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 .admin-shell {
@@ -669,8 +766,24 @@ p {
   .section-block,
   .split-band,
   .editor-panel,
-  .preview-panel {
+  .preview-panel,
+  .article-page {
     padding: 14px;
+  }
+
+  .article-hero h1,
+  .article-missing h1 {
+    font-size: clamp(30px, 9vw, 38px);
+    line-height: 1.03;
+  }
+
+  .article-summary,
+  .article-body {
+    font-size: 17px;
+  }
+
+  .article-body h2 {
+    font-size: 24px;
   }
 
   .site-header.simple .brand-row {
