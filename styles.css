@@ -136,21 +136,6 @@ main {
   padding: 18px;
 }
 
-.ad-slot {
-  min-height: 92px;
-  display: grid;
-  place-items: center;
-  border: 1px dashed #bdb8ad;
-  background: #ebe7dd;
-  color: #777165;
-  font: 700 12px "Trebuchet MS", sans-serif;
-  text-transform: uppercase;
-}
-
-.ad-slot.lower {
-  margin-top: 28px;
-}
-
 .ticker {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -691,10 +676,6 @@ p {
     padding: 8px 10px;
     border-radius: 999px;
     background: #f6f6f6;
-  }
-
-  .ad-slot {
-    min-height: 68px;
   }
 
   .ticker {
